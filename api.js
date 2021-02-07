@@ -34,7 +34,6 @@ const displayMealList = data => {
         mealName = "Sorry, we didn't find it. please enter valid name again";
     }
     mealsName.innerHTML = mealName;
-
 }
 
 
@@ -60,13 +59,15 @@ const ingredientsDetails = inputMeal => {
     <div class="single-meal-div">
     <img class="mealDetails-img" src="${inputMeal.strMealThumb}">
     <h1 class="text-danger fw-bold"> ${inputMeal.strMeal}</h1>
-    <h3 class="fw-bold">Ingredients:</h3>
+    <h3 class="fw-bold text-primary">Ingredients:</h3>
     <li>${inputMeal.strMeasure1} ${inputMeal.strIngredient1}</li>
     <li>${inputMeal.strMeasure2} ${inputMeal.strIngredient2}</li>
     <li>${inputMeal.strMeasure3} ${inputMeal.strIngredient3}</li>
     <li>${inputMeal.strMeasure4} ${inputMeal.strIngredient4}</li>
     <li>${inputMeal.strMeasure5} ${inputMeal.strIngredient5}</li>
-    <li>${inputMeal.strMeasure7} ${inputMeal.strIngredient6}</li>
+    <li>${inputMeal.strMeasure6} ${inputMeal.strIngredient6}</li>
+    <li>${inputMeal.strMeasure7} ${inputMeal.strIngredient7}</li>
+    <li>${inputMeal.strMeasure8} ${inputMeal.strIngredient8}</li>
     <div>
     </div>`;  
 }
