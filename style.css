@@ -1,0 +1,55 @@
+body{
+    background-color:rgba(241, 224, 204, 0.651);
+}
+
+#mealmaindiv{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+   
+    
+}
+
+.meal-img{
+
+    width: 100%;
+    border-radius: 10px; 
+}
+
+.meal-main-div{
+    box-shadow: 5px 3px 5px 3px rgb(163, 163, 161);
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0) ;
+    border-radius: 10px;
+}
+
+.meal-name{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size:25px;
+}
+
+.mealDetails-img{
+    width:400px ;
+}
+
+
+#single-meal-details{
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.ingredientsDetails{
+    background-color: aliceblue;
+}
+.single-meal-div{
+    margin-left:400px;
+}
+
+#single_meal{
+    border: 5px dotted rgb(240, 136, 122);
+    border-radius: 15px;
+    box-shadow: 5px 3px 5px 3px rgba(160, 119, 43, 0.144);
+    padding: 50px;
+    background-color: rgba(195, 238, 241, 0.164);
+}
