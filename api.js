@@ -56,7 +56,7 @@ const ingredientsDetails = inputMeal => {
     singleMailDetails.innerHTML =  
     `
     <div id="single_meal">
-    <img class="mealDetails-img" src="${inputMeal.strMealThumb}">
+    <img class="mealDetails-img mt-5 mb-5" src="${inputMeal.strMealThumb}">
     <h1 class="text-danger fw-bold"> ${inputMeal.strMeal}</h1>
     <h3 class="fw-bold text-primary">Ingredients:</h3>
     <li>${inputMeal.strMeasure1} ${inputMeal.strIngredient1}</li>
