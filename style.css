@@ -30,26 +30,22 @@ body{
 }
 
 .mealDetails-img{
+    border-radius: 15px;
     width:400px ;
-}
-
-
-#single-meal-details{
-    margin: 0 auto;
-    margin-bottom: 30px;
 }
 
 .ingredientsDetails{
     background-color: aliceblue;
 }
-.single-meal-div{
-    margin-left:400px;
-}
+
 
 #single_meal{
+    margin:0 auto;
+    width: 500px;
     border: 5px dotted rgb(240, 136, 122);
     border-radius: 15px;
-    box-shadow: 5px 3px 5px 3px rgba(160, 119, 43, 0.144);
+    box-shadow: 5px 3px 5px 3px rgba(238, 207, 150, 0.253);
     padding: 50px;
     background-color: rgba(195, 238, 241, 0.164);
+    margin-bottom: 20px;
 }
