@@ -53,21 +53,30 @@ const mealDetails = mealId => {
 const ingredientsDetails = inputMeal => {
     
     const singleMailDetails = document.getElementById("single-meal-details");
+    singleMailDetails.style.display="block";
+    document.getElementById("mealmaindiv").style.display="none";
     singleMailDetails.innerHTML =  
     `
+    <button onclick="mainPage()" class="btn btn-danger">Back</button>
     <div id="single_meal">
-    <img class="mealDetails-img " src="${inputMeal.strMealThumb}">
+    <img class="mealDetails-img shadow" src="${inputMeal.strMealThumb}">
     <h1 class="text-danger fw-bold mt-3"> ${inputMeal.strMeal}</h1>
     <h3 class="fw-bold text-primary mt-4">Ingredients</h3>
-    <li>${inputMeal.strMeasure1} ${inputMeal.strIngredient1}</li>
-    <li>${inputMeal.strMeasure2} ${inputMeal.strIngredient2}</li>
-    <li>${inputMeal.strMeasure3} ${inputMeal.strIngredient3}</li>
-    <li>${inputMeal.strMeasure4} ${inputMeal.strIngredient4}</li>
-    <li>${inputMeal.strMeasure5} ${inputMeal.strIngredient5}</li>
-    <li>${inputMeal.strMeasure6} ${inputMeal.strIngredient6}</li>
-    <li>${inputMeal.strMeasure7} ${inputMeal.strIngredient7}</li>
-    <li>${inputMeal.strMeasure8} ${inputMeal.strIngredient8}</li> 
+    <li><i class="fas fa-check-square text-warning mx-2"></i>${inputMeal.strMeasure1} ${inputMeal.strIngredient1}</li>
+    <li><i class="fas fa-check-square text-warning mx-2"></i>${inputMeal.strMeasure2} ${inputMeal.strIngredient2}</li>
+    <li><i class="fas fa-check-square text-warning mx-2"></i>${inputMeal.strMeasure3} ${inputMeal.strIngredient3}</li>
+    <li><i class="fas fa-check-square text-warning mx-2"></i>${inputMeal.strMeasure4} ${inputMeal.strIngredient4}</li>
+    <li><i class="fas fa-check-square text-warning mx-2"></i>${inputMeal.strMeasure5} ${inputMeal.strIngredient5}</li>
+    <li><i class="fas fa-check-square text-warning mx-2"></i>${inputMeal.strMeasure6} ${inputMeal.strIngredient6}</li>
+    <li><i class="fas fa-check-square text-warning mx-2"></i>${inputMeal.strMeasure7} ${inputMeal.strIngredient7}</li>
+    <li><i class="fas fa-check-square text-warning mx-2"></i>${inputMeal.strMeasure8} ${inputMeal.strIngredient8}</li> 
     </div>`;  
+}
+
+
+const mainPage = ()=>{
+    document.getElementById("single-meal-details").style.display="none";
+    document.getElementById("mealmaindiv").style.display="grid";
 }
 
 

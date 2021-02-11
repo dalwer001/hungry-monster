@@ -1,13 +1,11 @@
 body{
-    background-color:rgba(241, 224, 204, 0.651);
+    background-color:rgba(209, 212, 243, 0.623)
 }
 
 #mealmaindiv{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 20px;
-   
-    
+    grid-gap: 20px;  
 }
 
 .meal-img{
@@ -17,7 +15,7 @@ body{
 }
 
 .meal-main-div{
-    box-shadow: 5px 3px 5px 3px rgb(163, 163, 161);
+    box-shadow: 5px 3px 5px 3px rgba(233, 206, 148, 0.418);
     border-radius: 5px;
     background-color: rgb(0, 0, 0) ;
     border-radius: 10px;
@@ -30,8 +28,8 @@ body{
 }
 
 .mealDetails-img{
-    border-radius: 15px;
-    width:400px ;
+    border-radius: 5px;
+    width:600px ;
 }
 
 
@@ -39,10 +37,19 @@ body{
 #single_meal{
     margin:0 auto;
     width: 500px;
-    border: 5px dotted rgb(240, 136, 122);
+    /* border: 5px dotted rgb(240, 136, 122); */
     border-radius: 15px;
-    box-shadow: 5px 3px 5px 3px rgba(238, 207, 150, 0.253);
+    /* box-shadow: 5px 3px 5px 3px rgba(238, 207, 150, 0.253); */
     padding: 50px;
-    background-color: rgba(195, 238, 241, 0.164);
+    /* background-color: rgb(255, 255, 255);  */
     margin-bottom: 30px;
+}
+
+li {
+    list-style-type: none;
+    
+}
+
+.input{
+    border-radius: 15px;
 }
