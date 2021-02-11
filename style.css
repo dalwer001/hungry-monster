@@ -1,5 +1,5 @@
 body{
-    background-color:rgba(209, 212, 243, 0.623)
+    background-color:rgba(180, 164, 206, 0.377)
 }
 
 #mealmaindiv{
@@ -15,7 +15,7 @@ body{
 }
 
 .meal-main-div{
-    box-shadow: 5px 3px 5px 3px rgba(233, 206, 148, 0.418);
+    box-shadow: 5px 3px 5px 3px rgba(187, 183, 248, 0.418);
     border-radius: 5px;
     background-color: rgb(0, 0, 0) ;
     border-radius: 10px;
@@ -29,7 +29,7 @@ body{
 
 .mealDetails-img{
     border-radius: 5px;
-    width:600px ;
+    width:500px ;
 }
 
 
@@ -53,3 +53,9 @@ li {
 .input{
     border-radius: 15px;
 }
+
+#searchBtn{
+    background-color: orange;
+    color: white;
+}
+
